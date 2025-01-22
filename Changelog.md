@@ -12,6 +12,18 @@
 
 --------
 
+## Version 0.1.1
+
+### Minor updates - 0.1.1
+
+- None
+
+### Release updates - 0.1.1
+
+- Provide correct 'README.md' file
+
+--------
+
 ## Version 0.1.0
 
 ### Minor updates - 0.1.0

@@ -11,9 +11,26 @@ This bash script provide an easy way to generate & download ROX reports
 Simply run the script with the desired option(s)
 
 ```bash
-cluster_insights.sh -i <CLUSTER_ID> [-f|-l|-o|s|-O "<Insight options>"] [-h]
+rox_reports.sh [-s <ROX_ENDPOINT_URL>] [-t <ROX_API_TOKEN>] [-h]
 ```
 
 You need to specify the cluster_ID
 
 #### Script Options
+
+```text
+usage: rox_reports.sh [-s <ROX_ENDPOINT_URL>] [-t <ROX_API_TOKEN>] [-h]
+
+|---------------------------------------------------------------------------------------------------------------------|
+| Options | Description                                                     | Alternate way, setting variables        |
+|---------|-----------------------------------------------------------------|-----------------------------------------|
+|      -s | Set ROX Endpoint URL                                            | export ROX_ENDPOINT=<ROX_ENDPOINT_URL>  |
+|      -t | ROX Token                                                       | export ROX_API_TOKEN=<ROX_API_TOKEN>    |
+|---------|-----------------------------------------------------------------|-----------------------------------------|
+|         | Additional Options:                                             |                                         |
+|---------|-----------------------------------------------------------------|-----------------------------------------|
+|      -h | display this help and check for updated version                 |                                         |
+|---------------------------------------------------------------------------------------------------------------------|
+
+Current Version: X.Y.Z
+```

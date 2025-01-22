@@ -3,7 +3,7 @@
 # Script       # rox_reports.sh
 # Description  # Help in generation and download of ROX reports
 ##################################################################
-# @VERSION     # 0.1.0
+# @VERSION     # 0.1.1
 ##################################################################
 # Changelog.md # List the modifications in the script.
 # README.md    # Describes the repository usage
@@ -19,7 +19,7 @@ fct_help(){
   echo -e "usage: ${cyantext}${ScriptName} [-s <ROX_ENDPOINT_URL>] [-t <ROX_API_TOKEN>] ${purpletext}[-h]${resetcolor}\n"
   OPTION_TAB=8
   DESCR_TAB=63
-  DEFAULT_TAB=78
+  DEFAULT_TAB=40
   printf "|%${OPTION_TAB}s---%-${DESCR_TAB}s---%-${DEFAULT_TAB}s|\n" |tr \  '-'
   printf "|%${OPTION_TAB}s | %-${DESCR_TAB}s | %-${DEFAULT_TAB}s|\n" "Options" "Description" "Alternate way, setting variables"
   printf "|%${OPTION_TAB}s | %-${DESCR_TAB}s | %-${DEFAULT_TAB}s|\n" |tr \  '-'
