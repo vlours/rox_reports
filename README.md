@@ -14,8 +14,6 @@ Simply run the script with the desired option(s)
 rox_reports.sh [-s <ROX_ENDPOINT_URL>] [-t <ROX_API_TOKEN>] [-h]
 ```
 
-You need to specify the cluster_ID
-
 #### Script Options
 
 ```text
